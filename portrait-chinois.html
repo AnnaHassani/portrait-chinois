@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portrait-chinois.css">
+    <script type="text/javascript" src= "script.js"></script>
+    <link rel="icon" type="icon" href="image/feuilles.png">
+   
+    <title>Portrait chinois</title>
+</head>
+
+<body>
+
+  <section class="background1">
+    <div class="firstpage">
+  <!--barre de navigation (menu)-->
+  <nav>
+    <ul>
+        <li> <a href ="#unefleur">|  une fleur |</a></li>
+  
+        <li><a href ="#unréseausocial">|  un réseau social  |</a></li>
+  
+        <li><a href ="#unplat">|  un plat |</a></li>
+  
+        <li><a href ="#uneactivité">| une activité  |</a></li>
+        
+        <li><a href ="#unobjet">| un objet |</a></li>
+  
+        <li><a href ="#uneville">|  une ville |</a></li>
+  
+        <li><a href ="#unstyle">| un style |</a></li>
+    </ul>
+  </nav>
+  <!--fin barre de navigation (menu)-->
+
+  <!--fenêtre modal-->
+    <section>
+      <button class= "myButton:hover"id="show-modal-btn"><strong>?</strong></button>
+        <div id="overlay">
+          <div id="modal">
+            <h3 class="modaltxt">Qu'est-ce qu'un portrait chinois ?</h3>
+            <P> Un portrait chinois est une manière créative de se décrire à travers un questionnaire entièrement basé sur l'identification à des objets, des éléments ou des personnes.</p>
+            <button id="close-modal-btn">Fermer</button>    
+          </div>
+        </div>  
+  <!--fin fenêtre modal-->      
+<div class ="titre">
+  <h1 class="titre">Mon portrait chinois</h1>
+  <h2> Anna Hassani<h2>
+</div>
+</div>
+</section>
+
+<div id="liste-analogies">
+</div>
+<!--formulaire-->
+<div id="toncompte"></div>
+<div> 
+  <main>
+        <form method="post">
+          <h1 class="votrecompte" id="votrecompte">À votre tour !</h1>
+          <h3 class="si j'étais">Si j'étais ...</h3>
+            <input type="text" id="analogie" placeholder="(ex : un animal)"required>
+            <label class="je serais"><h3> Je serais ...</h3></label>
+            <input type="text" id="valeurAnalogie" placeholder="(ex : un chat)"required>
+            <br>
+            <h3>Image</h3>
+            <input type="url" id="imganalogie" name="imganalogie" placeholder="L'url d'une image" required>
+            <br>
+            <h3>Argument</h3>
+            <input class="argument" type="text" placeholder="(ex : je suis paresseux...)" id="arganalogie">
+            <br>
+            <label for="courriel"><h3> Email</h3></label>
+            <input type="email" id="courriel" name="courriel" required>
+            <br>
+            <input type="button" value="Envoyer et Créer" id="valider" name="valider">
+            <div id="message"></div>
+            </form>
+            </p>
+          </form>
+        </main>
+      </div>
+<!--fin formulaire-->
+
+<!--volet déroulant-->
+<footer>
+<div class="volet-invisible">
+    <h2 class="mentionstitle">Mentions légales</h2>
+    <div class="mentionsp">
+    <p><strong>©Anna Hassani</strong></p>
+    <p>-2022-</p>
+    <p><a href="mailto:anna.hassani77@mail.com">anna.hassani77@gmail.com</a></p>
+    <p><strong>Crédits photos :</strong> https://www.pexels.com/fr-fr/</p>
+    <p><strong> Font : </strong>"miracle" & "austern"</p>
+    <p><strong>Hébergeur :</strong> Université Gustave Eiffel</p>
+    <p>Université Gustave Eiffel : 5 boulevard Descartes - Champs-sur-Marne - 77454 Marne-la-Vallée Cedex2 - Tél : 33(1).60.95.75.00 - Fax : 33(1).60.95.75.75</p>
+    </div>
+</div>
+</footer>
+
+<!--fin volet déroulant-->
+</body>   
+</html>

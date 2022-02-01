@@ -1,0 +1,43 @@
+[{"analogie":"une fleur",
+"variableAnalogie":"une pivoine",
+"justify":"Les fleurs de pivoines, joliment ébouriffées sont des fleurs originaires de régions de l’Europe à l’Extrême-Orient, notamment de Chine. Elles symbolisent à la fois la générosité, la romance, le bien-être, l’honneur mais aussi la pudeur et la honte. Ce sont des fleurs que j’apprécie beaucoup et particulièrement pour leur odeur.",
+"img":"image/img1.jpg",
+"id":"unefleur"},
+
+{"analogie":"un réseau social",
+"variableAnalogie":"Instagram",
+"justify":"J'adore ce réseau social qui m'inspire beaucoup. J'aime organiser mes publications pour avoir un beau feed Instagram. Cela permet d'éveiller ma créativité tout en gérant une communauté.", 
+"img":"image/img2.png", 
+"id": "unréseausocial"},
+
+{"analogie":"un plat",
+"variableAnalogie":"des sushis",
+"justify":"Le sushi est un plat typiquement japonais constitué de riz vinaigré et de poisson cru ainsi qu'une touche de wasabi qui se marie parfaitement au goût léger et distinct du poisson cru. Dans la même gamme, il existe aussi les makis. Ce sont des rouleaux qui sont aussi constitués de riz vinaigrés, de poisson cru, et de crudités. Aujourd’hui, il existe différentes variétées de mali et de sushi. Le mélange de saveurs en bouche est excellent, ce qui fait des sushis, mon plat préféré. ",
+"img":"image/img3.jpg",
+"id": "unplat"},
+
+{"analogie":"une activité",
+"variableAnalogie":"le sport",
+"justify":"Je suis de nature dynamique et sportive. Le sport est une manière de me libérer l’esprit, de me dépasser et de me fixer des objectifs. C'est aussi un moyen d'avoir le controle sur soi-même. ", 
+"img": "image/img4.jpg", 
+"id": "uneactivité"},
+
+{"analogie":"un objet",
+"variableAnalogie":"une bougie",
+"justify":"Il suffit d’allumer la flamme pour embaumer nos coeurs. La bougie laisse échapper un doux parfum dans une pièce et crée une ambiance chaleureuse. J’aime disposer des bougies sur des étagères en guise de décoration. ",
+"img":"image/img5.jpg",
+"id": "unobjet"},
+
+{"analogie":"une ville",
+"variableAnalogie":"Paris",
+"justify":"J'aime beaucoup Paris pour sa culture. C'est toujours amusant de découvrir de nouvelles choses et de nouveaux endroits. Des monuments aux musées, jusqu'aux grands quartiers, Paris est une villes très animée et on ne s'y ennuie jamais. ",
+"img": "image/img6.jpg",
+"id": "uneville"},
+
+{"analogie":"un style",
+"variableAnalogie":"le minimalisme",
+"justify":"On distingue le style minimaliste par sa simplicité, son élégance, sa propreté et sa modernité. En autre, le minimalisme se concentre que sur le strict minimum. On y trouve des couleurs neutres et épurées tels que du beige, du blanc, du gris... . Ce style me correspond bien car j'apprécie la simplicité tout en restant moderne.", "img":"image/img7.jpg",
+"id": "unstyle"}]
+
+
+

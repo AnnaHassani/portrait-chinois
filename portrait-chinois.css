@@ -1,0 +1,285 @@
+/*polices*/
+
+@font-face {
+    font-family: 'miracle';
+    src: url(police/miracle_personal_use-webfont.woff) format('woff');
+    src: url(police/miracle_personal_use-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'austern';
+    src: url(police/AustenRegular-vmpaD.woff) format('woff');
+    src: url(police/AustenRegular-vmpaD.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'miracle';
+   background-color: #635d62;
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*__________________________________________________________*/
+/* titres principaux */
+.background1{
+    background-image: url(image/feuilles\ vertes.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre{
+
+    font-family: 'austern';
+    font-size: 2em;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: auto;
+}
+
+h1 {
+    font-family: 'miracle';
+    display: block;
+    font-size: 3em;
+    color: #c8c1ab;
+    text-align: center;
+}
+
+.sijétais, .jeserais{
+        font-family: 'miracle';
+        display: block;
+        font-size: 2em;
+        color: #c8c1ab;
+        text-align: center;
+}
+
+h2{
+color: #c8c1ab;
+text-align: center;
+font-family: 'austern'; 
+}
+
+
+h3, .mentionstitle, .volet-invisible{
+font-size: 1em;
+color: black;
+text-align: center;
+font-family: 'miracle';  
+}
+/*__________________________________________________________*/
+
+
+
+/*__________________________________________________________*/
+/* barre de navigation */
+ul {
+border: solid 2px #c8c1ab;
+margin: 0;
+padding: 0;
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+font-family: 'miracle';
+text-align: center;
+text-decoration: none;
+display: inline-block;
+padding: 15px;
+margin: 0px;
+color: white;
+font-weight: bold;
+font-size: 1em;
+}
+
+li:hover {
+    background-color: #c8c1ab;
+}
+/*__________________________________________________________*/
+
+.analogie {height:100vh}
+
+.image{
+    height:  400px;
+    width: 350px;
+    margin-right: 5px;
+    margin: 15px;
+    border-top: ridge 9px #c8c1ab ;
+    border-right: ridge 9px #c8c1ab ;
+    border-left: ridge 9px #c8c1ab ;
+    border-bottom: ridge 9px #c8c1ab ;
+}
+
+.justify p{
+    margin: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 5px solid white;
+    padding: 15px;
+    text-align: justify;
+    top: 0;
+    background: #b6bfa9;
+    border-radius: 12px 12px 12px 12px;
+    float: right;
+    width: fit-content;
+    height: fit-content;
+}
+
+.paragraphe{
+    color: white; 
+    font-family: 'miracle';
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+}
+
+
+/*__________________________________________________________*/
+/* formulaire */
+.votrecompte{
+    background-color:lightgrey;
+    color: white;
+    text-align: center;
+    font-weight: 550;
+    padding-top: 5px;
+    font-size: 2em;
+}
+
+form{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    color: black; 
+    font-family: 'austern';
+    box-sizing: border-box;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    font-size: 1em;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #c8c1ab
+}
+
+/*
+/*__________________________________________________________*/
+
+
+
+
+/*__________________________________________________________*/
+/* Mentions légales (volet déroulant) */
+
+.mentionstitle{
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    background-color: #c8c1ab;
+}
+
+.volet-visible{
+    height: 12em;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.volet-invisible{
+    overflow: hidden;
+    height: 4em;
+    margin: auto;
+    cursor: pointer;
+}
+/*__________________________________________________________*/
+/* modal */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+ }
+ #modal {
+     border: dotted 4px #505739;
+     border-radius: 10px;
+    max-width:500px;
+    height: 200px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position:absolute;
+    align-items: center;
+    background-color: white;
+    box-shadow:
+    0 0 30px #ffffff,
+    0 0 50px #ffffff,
+    0 0 60px #ffffff;;
+ }
+#show-modal-btn{
+        box-shadow: 0px 1px 0px 0px #1c1b18;
+        margin-top: 20px;
+        padding-top: 20px;
+        background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+        background-color:#eae0c2;
+        border-radius:15px;
+        border:2px solid #333029;
+        display:inline-block;
+        cursor:pointer;
+        padding:12px 16px;
+    
+    }
+
+#close-modal-btn{
+    margin-right: 200px;
+    margin-bottom: 10px;
+    background-color: #626b50;
+    border: ridge;
+    color: white;
+    font-size: 1.1rem;
+    box-shadow: 4px 4px black;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+ }
+.modaltxt{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.firstpage{
+    height: 100vh;
+}
